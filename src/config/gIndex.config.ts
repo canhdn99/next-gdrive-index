@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "03e9e63b9df855497788b7ed1a27b1cfee6c79bf91edb573ac97b94476b93763fbfe63dfb463e2b5bfe2b93d674b55a1b7;0cd221f2e630b251b9ddc723",
+      "f009e90c7394f8d5ae62da2f8af187e939479ae2dcd0a893b9880063c1533e993cc72757cf80d67d8ce1336f26aee3e221;3a0234417f833ccc8436bbea",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -94,7 +94,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can add more extensions if you want
      */
-    hiddenFiles: [".readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp", ".password"],
+    hiddenFiles: [".password", ".readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp"],
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
@@ -172,11 +172,11 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "kentt-gdrive-index",
+    siteName: "next-gdrive-index",
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
-    siteAuthor: "kent",
+    siteAuthor: "Kent",
     favIcon: "/favicon.png",
     /**
      * Next.js Metadata robots object
@@ -285,7 +285,7 @@ const config: z.input<typeof Schema_Config> = {
     "value": "{{ poweredBy }}"
   },
   {
-    "value": "Made with ❤️ by Kent"
+    "value": "Made with ❤️ by [**Kent**](https://t.me/@ent_dao)"
   }
 ],
     /**
